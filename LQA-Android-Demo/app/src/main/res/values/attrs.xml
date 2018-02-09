@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageCircularProgress">
+        <attr name="backgroundColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="CircularProgress">
+        <attr name="circle_width" format="dimension" />
+        <attr name="indeterminate_color" format="color|reference" />
+        <attr name="arc_color" format="color|reference" />
+        <attr name="start_angle" format="float" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="src" format="reference" />
+    </declare-styleable>
+</resources>

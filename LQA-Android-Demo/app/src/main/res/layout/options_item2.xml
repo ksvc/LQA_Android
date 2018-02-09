@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.ksyun.lqa.demo.skin.ui.QAItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:text="7871"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_16"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/tv_number"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="B.《哈利波特"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_16"></TextView>
+
+
+</com.ksyun.lqa.demo.skin.ui.QAItemView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_10">10dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_15">15dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+    <dimen name="text_size_17">17dp</dimen>
+    <dimen name="text_size_18">18dp</dimen>
+    <dimen name="text_size_19">19dp</dimen>
+    <dimen name="text_size_20">20dp</dimen>
+    <dimen name="text_size_22">22dp</dimen>
+    <dimen name="text_size_24">24dp</dimen>
+
+    <dimen name="lqa_options_item_width">50dp</dimen>
+</resources>

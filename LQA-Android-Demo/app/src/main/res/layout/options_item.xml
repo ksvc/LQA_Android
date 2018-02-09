@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/options_item_background">
+
+    <View
+        android:id="@+id/options_backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/options_item_selector_gray" />
+
+
+    <TextView
+        android:id="@+id/tv_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="B.《哈利波特"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_16"></TextView>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:text="7871"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_16"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00ffffff">
+
+    <RelativeLayout
+        android:id="@+id/rl_question_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/lqa_bonus_background"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <TextView
+            android:id="@+id/tv_stem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="54dp"
+            android:text="4.以下哪个是世界上最长的系列电影？"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_stem"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:text="您已被淘汰，不能继续作答"
+            android:textColor="#ffFC316C"
+            android:textSize="@dimen/text_size_14" />
+
+        <LinearLayout
+            android:id="@+id/ll_question_seleter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_error"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#0000ff00"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal">
+
+        <com.ksyun.lqa.demo.skin.ui.CircularProgress xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circula_progress"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="#00ffffff"
+            android:padding="3dp"
+            app:arc_color="#FF42CBF2"
+            app:circle_width="5dp"
+            app:indeterminate_color="#ffffffff"
+            app:start_angle="-90" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/lqa_no_time"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_24"
+            android:textStyle="bold" />
+    </FrameLayout>
+</FrameLayout>
