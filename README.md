@@ -42,9 +42,10 @@ android {
        compile(name: 'LibLQA-release', ext: 'aar')
        compile 'com.android.support:support-compat:27.0.0'
        compile 'com.android.support:support-v4:27.0.0'
-       compile 'com.ksyun.media:libksyplayer-java:2.1.2'
-       compile 'com.ksyun.media:libksyplayer-armv7a:2.1.2'
-       compile 'com.ksyun.media:libksyplayer-arm64:2.1.2'
+       compile 'com.ksyun.media:libksyplayer-java:2.2.1'
+       compile 'com.ksyun.media:libksyplayer-armv7a:2.2.1'
+       compile 'com.ksyun.media:libksyplayer-arm64:2.2.1'
+       compile 'com.ksyun.media:libksyplayer-armv5:2.2.1'
        compile 'com.squareup.okhttp3:okhttp:3.9.0'
    }
 
@@ -71,6 +72,10 @@ android {
         mConfig.setUserId(QAConfig.mUid);
         // 设置当前直播场次
         mConfig.setContestLiveId(QAConfig.mContestSequenceId);
+        // 设置播放器对象
+        mConfig.setMediaPlayer(mPlayer.getPlayer());
+        // 设置播放地址
+        mConfig.setPlayerUrl(QAConfig.mLiveUrl);
 
 ```
 这些参数，在服务端对接时，都需要您的APP Server下发给您。
