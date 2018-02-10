@@ -8,7 +8,9 @@
 // 播放SDK地址
 https://github.com/ksvc/KSYMediaPlayer_Android
 ```
+项目总体架构图如下：
 
+![总体架构图](https://raw.githubusercontent.com/wiki/ksvc/LQA_iOS/images/sdk_role.png)
 ## 2 接入流程
 ### 2.1 环境要求
 * Android SDK Build-tools 请升级到 21 及以上版本。
