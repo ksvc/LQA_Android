@@ -82,7 +82,7 @@ android {
 ### 2.4 API
 1. 所有对外提供的接口走在LQAClient类中
 2. Demo展示请参考LivePlayerActivity和QAActionUI
-3. 详细API说明请参考WIKI描述
+3. 详细API说明请参考[WIKI描述](https://github.com/ksvc/LQA_Android/wiki)
 ## 3 注意事项
 1. Android Build-tools必须是21及以上，这个为了兼容Android系统8.0的问题
 2. 如果您在项目中已经使用了融云SDK，在集成问答直播时，需要替换为使用问答直播
