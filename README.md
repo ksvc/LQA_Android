@@ -100,8 +100,8 @@ android {
 |问题描述	|描述问题出现的现象|
 |操作描述	|描述经过如何操作出现上述问题|
 |额外附件|文本形式控制台log、crash报告、其他辅助信息（界面截屏或录像等）|
-### 4.2 短视频解决方案咨询
-金山云官方产品客服，帮您快速了解对接金山云短视频解决方案：
+### 4.2 直播问答解决方案咨询
+金山云官方产品客服，帮您快速了解对接金山云直播问答解决方案：
 
  ![image](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/wechat.png)
 ### 4.3 联系方式
